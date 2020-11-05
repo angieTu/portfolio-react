@@ -1,0 +1,22 @@
+.about {
+  margin-top: 50px;
+  padding: 89px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $secondary-color;
+  box-shadow: 10px 0px 27px 10px gray;
+
+  .about-info {
+    font-size: 22px;
+  }
+
+  .about-title {
+    font-family: $main-font;
+    font-size: 39px;
+  }
+
+  .about-img {
+    width: 20%;
+  }
+}

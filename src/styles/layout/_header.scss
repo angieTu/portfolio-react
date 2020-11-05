@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  background-color: $main-color;
+  height: 69px;
+  flex-direction: row-reverse;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  line-height: 46px;
+  overflow: hidden;
+  z-index: 10;
+
+  .header-nav {
+    padding-right: 36px;
+
+    .header-nav-list {
+      padding-right: 22px;
+
+      .header-nav-list-item {
+        list-style: none;
+        float: right;
+        margin-left: 67px;
+        position: relative;
+        height: 49px;
+
+        & > a > span::after {
+          content: "}";
+          position: absolute;
+          transition: 0.3s;
+          bottom: -45px;
+          color: $third-color;
+          right: -15px;
+        }
+
+        & > a > span::before {
+          content: "{";
+          position: absolute;
+          transition: 0.3s;
+          bottom: -45px;
+          color: $third-color;
+          left: -15px;
+        }
+
+        &:hover {
+          & > a > span::before {
+            bottom: 4px;
+          }
+
+          & > a > span::after {
+            bottom: 4px;
+          }
+        }
+
+        & > a > span:hover {
+          & > .icon-about,
+          .icon-skills,
+          .icon-contact,
+          .icon-project {
+            bottom: 18px;
+          }
+        }
+      }
+    }
+  }
+}
