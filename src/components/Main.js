@@ -11,11 +11,11 @@ const Main = () => {
   return (
     <>
       <Container as="main" className="about" name="home">
-        <Heading className="about-title">Angie Turne</Heading>
+        <Heading className="about-title">Hola! Mi nombre es Angie</Heading>
         <Paragraph className="about-info">
-          Frontend Developer - Closed Captioner - Lic. En Relaciones Públicas
+        Soy Lic. en Relaciones Públicas, pero en el último año incursioné en el mundo IT y estudié desarrollo frontend. Actualmente me estoy formando para ser desarrolladora fullstack.
+      💻 Trabajo haciendo closed caption, y algunos proyectos freelance de desarrollo web.
         </Paragraph>
-        <Paragraph className="about-info">Humana de Muralito</Paragraph>
         <Img className="about-img" src={myselfImg} alt="" />
       </Container>
     </>

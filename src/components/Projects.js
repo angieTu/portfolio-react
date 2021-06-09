@@ -11,6 +11,7 @@ import travelBook from "../images/travelbook.jpg";
 import sliders from "../images/sliders.jpg";
 import ecualizador from "../images/ecualizador.jpg";
 import layoutTP from "../images/layoutTP.jpg";
+import apifriends from '../images/APIFriends.jpg'
 
 const Projects = () => {
   return (
@@ -54,6 +55,12 @@ const Projects = () => {
             title="Landing Corporate"
             tec="HTML - Sass"
           />
+          <CardProjects
+          href="https://documenter.getpostman.com/view/12618304/TW6wJoZQ"
+          src={apifriends}
+          title="API Friends"
+          tec="Postman - MondoDB"
+           />
         </Container>
       </Container>
     </>
