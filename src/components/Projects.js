@@ -32,6 +32,12 @@ const Projects = () => {
             tec="React"
           />
           <CardProjects
+            href="https://documenter.getpostman.com/view/12618304/TW6wJoZQ"
+            src={apifriends}
+            title="API Friends"
+            tec="Node.js - MongoDB"
+          />
+          <CardProjects
             href="https://photostravel.netlify.app/"
             src={travelBook}
             title="Travel"
@@ -54,12 +60,6 @@ const Projects = () => {
             src={layoutTP}
             title="Landing Corporate"
             tec="HTML - Sass"
-          />
-          <CardProjects
-            href="https://documenter.getpostman.com/view/12618304/TW6wJoZQ"
-            src={apifriends}
-            title="API Friends"
-            tec="Postman - MongoDB"
           />
         </Container>
       </Container>

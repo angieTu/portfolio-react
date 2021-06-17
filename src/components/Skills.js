@@ -14,6 +14,7 @@ import firebaseImg from "../images/firebase.png";
 import gitImg from "../images/git.png";
 import jsImg from "../images/js.png";
 import responsiveImg from "../images/responsive.png";
+import nodeImg from "../images/node.png";
 
 const Skills = () => {
   return (
@@ -30,6 +31,7 @@ const Skills = () => {
           <CardSkill src={gitImg} title="Git" />
           <CardSkill src={jsImg} title="JavaScript" />
           <CardSkill src={responsiveImg} title="Responsive" />
+          <CardSkill src={nodeImg} title="Node.js" />
         </Container>
       </Container>
     </Container>
