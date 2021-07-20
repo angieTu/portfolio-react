@@ -3,11 +3,25 @@
   align-items: center;
   flex-direction: column;
   padding: 44px;
-  background-color: $secondary-color;
-  box-shadow: 10px 0px 27px 10px gray;
+
+  position: relative;
 
   .skills-title {
     font-size: 39px;
+    z-index: 2;
+  }
+
+  .skewed-skills {
+    position: absolute;
+    top: 76px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background: $secondary-color;
+    transform: skewY(6deg);
+    transform-origin: top right;
   }
 
   .container-skills {
@@ -20,7 +34,7 @@
 
     .skill-box {
       width: 15%;
-      height: 200px;
+      height: 110px;
       margin: 26px 11px;
       transition: 0.3s ease-in;
 

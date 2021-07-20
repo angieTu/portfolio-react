@@ -2,8 +2,6 @@
   background-color: $main-color;
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
-  color: $main-text-color;
   font-size: 12px;
   padding: 0 0 29px 12px;
 
@@ -18,16 +16,9 @@
         font-size: 14px;
 
         &:hover {
-          color: $third-color;
+          color: $secondary-color;
           transition: 0.2s;
         }
-      }
-
-      & > a > .icon-mail,
-      .icon-linkedin,
-      .icon-github {
-        color: $third-color;
-        font-size: 15px;
       }
     }
   }

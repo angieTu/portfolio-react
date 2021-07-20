@@ -21,13 +21,16 @@ const Skills = () => {
     <Container name="skills">
       <Container as="section" className="skills">
         <Heading className="skills-title">Skills</Heading>
+        <Container as="section">
+          <Container className="skewed-skills" />
+        </Container>
         <Container className="container-skills">
           <CardSkill src={reactImg} title="React" />
-          <CardSkill src={sassImg} title="Sass" />
           <CardSkill src={htmlImg} title="HTML" />
           <CardSkill src={cssImg} title="CSS" />
           <CardSkill src={bootstrapImg} title="Bootstrap" />
           <CardSkill src={firebaseImg} title="Firebase" />
+          <CardSkill src={sassImg} title="Sass" />
           <CardSkill src={gitImg} title="Git" />
           <CardSkill src={jsImg} title="JavaScript" />
           <CardSkill src={responsiveImg} title="Responsive" />

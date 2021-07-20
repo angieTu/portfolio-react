@@ -14,8 +14,10 @@ const CardProjects = ({ href, src, title, tec }) => {
           <Img className="img-project" src={src} alt={title} />
         </Link>
       </Container>
-      <Heading level="3">{title}</Heading>
-      <Span>{tec}</Span>
+      <Container className="info-container">
+        <Heading level="3">{title}</Heading>
+        <Span>{tec}</Span>
+      </Container>
     </Container>
   );
 };

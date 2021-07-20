@@ -14,28 +14,40 @@
     flex-wrap: wrap;
 
     .project-box {
-      width: 35%;
-      height: 400px;
+      width: 33%;
+      height: 350px;
       overflow: hidden;
-      margin: 10px 56px;
+      margin: 20px 50px;
       border-radius: 10px;
-      padding: 40px 5px;
+      padding: 37px 0px 55px 0px;
+      background-color: #e8ecf3;
 
       .img-container {
         height: 300px;
+        text-align: center;
+
         .img-project {
-          width: 100%;
+          width: 90%;
           height: 100%;
           object-fit: cover;
           margin: -22px 0;
           transition: 0.3s ease-in;
           filter: grayscale(74%);
+          border-radius: 5px;
 
           &:hover {
             filter: grayscale(0);
             transform: scale(1.1);
           }
         }
+      }
+    }
+
+    .info-container {
+      padding-left: 15px;
+
+      span {
+        color: $secondary-color;
       }
     }
   }

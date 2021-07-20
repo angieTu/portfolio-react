@@ -9,15 +9,13 @@
   line-height: 46px;
   overflow: hidden;
   z-index: 10;
-  // background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	// background-size: 400% 400%;
-	// animation: gradient 15s ease infinite;
 
   .header-nav {
     padding-right: 36px;
 
     .header-nav-list {
       padding-right: 22px;
+      display: flex;
 
       .header-nav-list-item {
         list-style: none;
@@ -26,12 +24,16 @@
         position: relative;
         height: 49px;
 
+        span {
+          color: #000000;
+        }
+
         & > a > span::after {
           content: "}";
           position: absolute;
           transition: 0.3s;
           bottom: -45px;
-          color: $third-color;
+          color: $secondary-color;
           right: -15px;
         }
 
@@ -40,26 +42,20 @@
           position: absolute;
           transition: 0.3s;
           bottom: -45px;
-          color: $third-color;
+          color: $secondary-color;
           left: -15px;
         }
 
         &:hover {
+          & > a > span {
+            color: $secondary-color;
+          }
           & > a > span::before {
             bottom: 4px;
           }
 
           & > a > span::after {
             bottom: 4px;
-          }
-        }
-
-        & > a > span:hover {
-          & > .icon-about,
-          .icon-skills,
-          .icon-contact,
-          .icon-project {
-            bottom: 18px;
           }
         }
       }

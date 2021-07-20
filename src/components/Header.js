@@ -7,11 +7,6 @@ import Span from "./primitives/Span";
 
 import { Link } from "react-scroll";
 
-import { FcGraduationCap } from "react-icons/fc";
-import { FcOpenedFolder } from "react-icons/fc";
-import { FcBusinesswoman } from "react-icons/fc";
-import { FcPhoneAndroid } from "react-icons/fc";
-
 const Header = () => {
   return (
     <>
@@ -26,24 +21,7 @@ const Header = () => {
                 smooth={true}
                 to="home"
               >
-                <Span>
-                  Sobre mí
-                  {/* <FcBusinesswoman className="icon-about" /> */}
-                </Span>
-              </Link>
-            </ListItem>
-            <ListItem className="header-nav-list-item">
-              <Link
-                delay={200}
-                duration={500}
-                spy={true}
-                smooth={true}
-                to="skills"
-              >
-                <Span>
-                  Skills
-                  {/* <FcGraduationCap className="icon-skills" /> */}
-                </Span>
+                <Span>Sobre mí</Span>
               </Link>
             </ListItem>
             <ListItem className="header-nav-list-item">
@@ -54,10 +32,7 @@ const Header = () => {
                 smooth={true}
                 to="projects"
               >
-                <Span>
-                  Proyectos
-                  {/* <FcOpenedFolder className="icon-project" /> */}
-                </Span>
+                <Span>Proyectos</Span>
               </Link>
             </ListItem>
             <ListItem className="header-nav-list-item">
@@ -66,12 +41,21 @@ const Header = () => {
                 duration={500}
                 spy={true}
                 smooth={true}
+                to="skills"
+              >
+                <Span>Skills</Span>
+              </Link>
+            </ListItem>
+
+            <ListItem className="header-nav-list-item">
+              <Link
+                delay={200}
+                duration={500}
+                spy={true}
+                smooth={true}
                 to="form"
               >
-                <Span>
-                  Contacto
-                  {/* <FcPhoneAndroid className="icon-contact" /> */}
-                </Span>
+                <Span>Contacto</Span>
               </Link>
             </ListItem>
           </List>

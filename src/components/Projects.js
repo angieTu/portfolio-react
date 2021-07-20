@@ -8,10 +8,10 @@ import CardProjects from "./CardProjects";
 import movieApp from "../images/movieapp.jpg";
 import marvelApp from "../images/appMarvel.jpg";
 import travelBook from "../images/travelbook.jpg";
-import sliders from "../images/sliders.jpg";
 import ecualizador from "../images/ecualizador.jpg";
 import layoutTP from "../images/layoutTP.jpg";
 import apifriends from "../images/APIFriends.jpg";
+import toDoApp from "../images/ToDoApp.jpg";
 
 const Projects = () => {
   return (
@@ -38,16 +38,16 @@ const Projects = () => {
             tec="Node.js - MongoDB"
           />
           <CardProjects
+            href="https://todoappangie.netlify.app/"
+            src={toDoApp}
+            title="To Do App"
+            tec="React - Sass"
+          />{" "}
+          <CardProjects
             href="https://photostravel.netlify.app/"
             src={travelBook}
             title="Travel"
             tec="HTML - CSS"
-          />
-          <CardProjects
-            href="https://sliderstp.netlify.app/"
-            src={sliders}
-            title="Sliders"
-            tec="HTML - Sass"
           />
           <CardProjects
             href="https://ecualizadortp.netlify.app/"
