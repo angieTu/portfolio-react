@@ -9,9 +9,9 @@ import movieApp from "../images/movieapp.jpg";
 import marvelApp from "../images/appMarvel.jpg";
 import travelBook from "../images/travelbook.jpg";
 import ecualizador from "../images/ecualizador.jpg";
-import layoutTP from "../images/layoutTP.jpg";
 import apifriends from "../images/APIFriends.jpg";
 import toDoApp from "../images/ToDoApp.jpg";
+import cotizador from "../images/cotizador.jpg";
 
 const Projects = () => {
   return (
@@ -29,13 +29,19 @@ const Projects = () => {
             href="https://appmarvel.netlify.app/"
             src={marvelApp}
             title="App Marvel"
-            tec="React"
+            tec="React - Sass"
           />
           <CardProjects
             href="https://documenter.getpostman.com/view/12618304/TW6wJoZQ"
             src={apifriends}
             title="API Friends"
             tec="Node.js - MongoDB"
+          />
+          <CardProjects
+            href="https://angietu.github.io/Cotizador/"
+            src={cotizador}
+            title="Cotizador de servicios"
+            tec="JavaScript - Sass"
           />
           <CardProjects
             href="https://todoappangie.netlify.app/"
@@ -53,12 +59,6 @@ const Projects = () => {
             href="https://ecualizadortp.netlify.app/"
             src={ecualizador}
             title="Ecualizador"
-            tec="HTML - Sass"
-          />
-          <CardProjects
-            href="https://layouttp.netlify.app/"
-            src={layoutTP}
-            title="Landing Corporate"
             tec="HTML - Sass"
           />
         </Container>
