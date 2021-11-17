@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 44px;
+  padding: 0 44px 44px 44px;
 
   .projects-title {
     font-size: 39px;
@@ -14,7 +14,7 @@
     flex-wrap: wrap;
 
     .project-box {
-      width: 33%;
+      width: 25%;
       height: 350px;
       overflow: hidden;
       margin: 20px 50px;
