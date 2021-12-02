@@ -21,6 +21,10 @@
       padding-right: 104px;
       display: flex;
 
+      @media (max-width: 940px) {
+        display: none;
+      }
+
       .form-img {
         width: 100%;
         height: 100%;

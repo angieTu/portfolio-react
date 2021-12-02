@@ -32,6 +32,10 @@
     justify-content: space-around;
     padding: 0 120px;
 
+    @media (max-width: 1040px) {
+      padding: 0;
+    }
+
     .skill-box {
       width: 15%;
       height: 110px;

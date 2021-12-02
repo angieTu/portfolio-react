@@ -22,6 +22,10 @@
     font-size: 22px;
     width: 70%;
     line-height: 42px;
+
+    @media (max-width: 950px) {
+      width: 100%;
+    }
   }
 
   .about-title {
