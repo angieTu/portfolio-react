@@ -12,6 +12,7 @@ import ecualizador from "../images/ecualizador.jpg";
 import apifriends from "../images/APIFriends.jpg";
 import toDoApp from "../images/ToDoApp.jpg";
 import cotizador from "../images/cotizador.jpg";
+import tiendaapple from "../images/tiendaapple.png";
 
 const Projects = () => {
   return (
@@ -42,6 +43,12 @@ const Projects = () => {
             src={cotizador}
             title="Cotizador de servicios"
             tec="JavaScript - Sass"
+          />{" "}
+          <CardProjects
+            href="https://tiendaapple.netlify.app/"
+            src={tiendaapple}
+            title="Tienda Apple (En Construcción)"
+            tec="React - Sass - Firebase"
           />
           <CardProjects
             href="https://todoappangie.netlify.app/"
