@@ -39,4 +39,19 @@
   .about-img {
     width: 20%;
   }
+
+  button {
+    width: 15%;
+    height: 38px;
+    border-radius: 5px;
+    color: #e1edda;
+    background-color: #d66879;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $main-color;
+      color: $secondary-color;
+    }
+  }
 }
