@@ -13,6 +13,7 @@ import apifriends from "../images/APIFriends.jpg";
 import toDoApp from "../images/ToDoApp.jpg";
 import cotizador from "../images/cotizador.jpg";
 import tiendaapple from "../images/tiendaapple.png";
+import wenasports from "../images/wenasports.png";
 
 const Projects = () => {
   return (
@@ -21,16 +22,22 @@ const Projects = () => {
         <Heading className="projects-title">Proyectos</Heading>
         <Container className="projects-container">
           <CardProjects
+            href="https://wenasportstest.netlify.app/"
+            src={wenasports}
+            title="Wena Sports"
+            tec="React js - Sass"
+          />
+          <CardProjects
             href="https://theadamovie.netlify.app/"
             src={movieApp}
             title="The Ada Movie App"
-            tec="HTML - Sass - React"
+            tec="HTML - Sass - React js"
           />
           <CardProjects
             href="https://appmarvel.netlify.app/"
             src={marvelApp}
             title="App Marvel"
-            tec="React - Sass"
+            tec="React js - Sass"
           />
           <CardProjects
             href="https://documenter.getpostman.com/view/12618304/TW6wJoZQ"
@@ -47,21 +54,21 @@ const Projects = () => {
           <CardProjects
             href="https://tiendaapple.netlify.app/"
             src={tiendaapple}
-            title="Tienda Apple (En Construcción)"
-            tec="React - Sass - Firebase"
+            title="Tienda Apple"
+            tec="React js - Sass - Firebase"
           />
           <CardProjects
             href="https://todoappangie.netlify.app/"
             src={toDoApp}
             title="To Do App"
-            tec="React - Sass"
+            tec="React js - Sass"
           />{" "}
-          <CardProjects
+          {/* <CardProjects
             href="https://photostravel.netlify.app/"
             src={travelBook}
             title="Travel"
             tec="HTML - CSS"
-          />
+          /> */}
           <CardProjects
             href="https://ecualizadortp.netlify.app/"
             src={ecualizador}
