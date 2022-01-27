@@ -30,6 +30,10 @@
         width: 61%;
       }
 
+      @media (max-width: 940px) {
+        width: 100%;
+      }
+
       .img-container {
         height: 300px;
         text-align: center;
@@ -58,5 +62,9 @@
         color: $secondary-color;
       }
     }
+  }
+
+  @media (max-width: 940px) {
+    padding: 0;
   }
 }

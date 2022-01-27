@@ -9,13 +9,17 @@
   line-height: 46px;
   overflow: hidden;
   z-index: 10;
-
+  .nav-responsive {
+    display: none;
+  }
   .header-nav {
     padding-right: 75px;
 
     .header-nav-list {
       padding-right: 22px;
       display: flex;
+      width: 100%;
+      justify-content: space-between;
 
       .header-nav-list-item {
         list-style: none;
@@ -58,7 +62,18 @@
             bottom: 4px;
           }
         }
+        @media (max-width: 600px) {
+          margin-left: 24px;
+        }
       }
+      @media (max-width: 600px) {
+        padding-left: 0;
+      }
+    }
+    @media (max-width: 600px) {
+      margin: 0 auto;
+      flex-direction: column;
+      padding: 0;
     }
   }
 }
