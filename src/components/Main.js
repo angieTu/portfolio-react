@@ -7,7 +7,7 @@ import Span from "./primitives/Span";
 import Button from "./primitives/Button";
 import Link from "./primitives/Link";
 
-import cv from "../CVAngeletteTurne.pdf";
+import cv from "../AngeletteTurne.pdf";
 
 const Main = () => {
   return (
