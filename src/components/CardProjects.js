@@ -5,8 +5,9 @@ import Heading from "./primitives/Heading";
 import Link from "./primitives/Link";
 import Span from "./primitives/Span";
 import Img from "./primitives/Img";
+import BtnRepo from "./BtnRepo";
 
-const CardProjects = ({ href, src, title, tec }) => {
+const CardProjects = ({ href, src, title, tec, repo }) => {
   return (
     <Container as="article" className="project-box">
       <Container className="img-container">
@@ -15,8 +16,12 @@ const CardProjects = ({ href, src, title, tec }) => {
         </Link>
       </Container>
       <Container className="info-container">
-        <Heading level="3">{title}</Heading>
-        <Span>{tec}</Span>
+        <Container>
+          <Heading level="3">{title}</Heading>
+          <Span>{tec}</Span>
+        </Container>
+
+        <BtnRepo repo={repo} />
       </Container>
     </Container>
   );

@@ -6,7 +6,6 @@ import ListItem from "./primitives/ListItem";
 import Span from "./primitives/Span";
 
 import { Link } from "react-scroll";
-import { BsViewList } from "react-icons/bs";
 
 const Header = () => {
   return (
