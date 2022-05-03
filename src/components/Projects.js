@@ -14,6 +14,7 @@ import cotizador from "../images/cotizador.jpg";
 import tiendaapple from "../images/tiendaapple.png";
 import wenasports from "../images/wenasports.png";
 import wordle from "../images/wordle.jpeg";
+import dpdigital from "../images/dpdigital.png";
 
 const Projects = () => {
   return (
@@ -27,6 +28,13 @@ const Projects = () => {
             title="Wena Sports"
             tec="React js - Sass"
             repo="https://github.com/angieTu/Wena_Sports"
+          />
+          <CardProjects
+            href="https://dpdigital.com.ar/"
+            src={dpdigital}
+            title="DP Digital"
+            tec="React js - Sass"
+            repo="https://github.com/angieTu/dp-digitial"
           />
           <CardProjects
             href="https://theadamovie.netlify.app/"
