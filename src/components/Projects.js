@@ -15,6 +15,7 @@ import tiendaapple from "../images/tiendaapple.png";
 import wenasports from "../images/wenasports.png";
 import wordle from "../images/wordle.jpeg";
 import dpdigital from "../images/dpdigital.png";
+import goScrum from "../images/goScrum.png";
 
 const Projects = () => {
   return (
@@ -37,10 +38,17 @@ const Projects = () => {
             repo="https://github.com/angieTu/dp-digitial"
           />
           <CardProjects
+            href="https://angietu.github.io/goscrum/"
+            src={goScrum}
+            title="Go Scrum"
+            tec="React js - Redux"
+            repo="https://github.com/angieTu/goscrum"
+          />
+          <CardProjects
             href="https://theadamovie.netlify.app/"
             src={movieApp}
             title="The Ada Movie App"
-            tec="HTML - Sass - React js"
+            tec=" React js - Sass"
             repo="https://github.com/angieTu/TP_Final"
           />
           <CardProjects

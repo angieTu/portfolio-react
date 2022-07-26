@@ -1,10 +1,10 @@
 .about {
   margin-top: 50px;
-  padding: 89px;
+  min-height: calc(100vh - 69px);
+  padding: 89px 89px 0 89px;
   display: flex;
   flex-direction: column;
   background-color: $main-color;
-  padding-bottom: 170px;
 
   .skewed {
     position: absolute;
